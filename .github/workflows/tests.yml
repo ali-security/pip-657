@@ -12,6 +12,7 @@ jobs:
       TOXENV: lint,docs,vendoring
 
     strategy:
+      fail-fast: false
       matrix:
         os:
           - Ubuntu
